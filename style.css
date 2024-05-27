@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    font-family: 'Kanit';
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.953);
+}
+
+#nav{
+    width: 100%;
+    /* background-color: red; */
+    padding:30px ;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: larger;
+}
+
+#nav-2{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+h1{
+    line-height: 150px;
+    /* background-color: red; */
+    /* width:80%; */
+    font-size: 150px;
+    text-transform: uppercase;
+    font-weight:300;
+    position: relative;
+    z-index: 9;
+}
+
+#h1s{
+    /* background-color: red; */
+    position: absolute;
+    top: 63%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 99;
+}
+
+/* #main h1:nth-child(2){
+    margin-top: 270px;
+    margin-left: 37%;
+}
+
+#main h1:nth-child(3){
+    margin-left: 25%;
+}
+
+#last{
+    margin-left: 32%;
+} */
+
+img{
+    height: 500px;
+    margin-left: 20%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    border-radius: 20px;
+}
+
+#img1{
+    rotate: 30deg;
+}
+#img2{
+    rotate: 15deg;
+}
+#img3{
+    rotate: 1deg;
+}
+
+#cursor{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: fixed;
+    z-index: 99;
+}
+#cursor-blur{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    position: fixed;
+    filter:blur(100px);
+    z-index: 9;
+}
